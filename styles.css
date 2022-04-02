@@ -1,0 +1,79 @@
+:root {
+  --blue: hsl(246, 80%, 60%);
+  --light-red-work: hsl(15, 100%, 70%);
+  --soft-blue: hsl(195, 74%, 62%);
+  --light-red-study: hsl(348, 100%, 68%);
+  --lime-green: hsl(145, 58%, 55%);
+  --violet: hsl(264, 64%, 52%);
+  --soft-orange: hsl(43, 84%, 65%);
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --desaturated-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+}
+
+html {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  background-color: var(--dark-blue);
+  border-radius: 20px;
+  color: white;
+}
+
+.profile-card {
+  background-color: var(--blue);
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  height: 60px;
+  width: 60px;
+  border: solid 2px white;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.name-container {
+  padding-left: 10px;
+}
+
+.name-container p {
+  font-size: 0.9rem;
+  color: var(--pale-blue);
+  margin-bottom: 5px;
+}
+.name-container h1 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.selection-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
