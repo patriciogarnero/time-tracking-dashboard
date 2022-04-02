@@ -68,6 +68,13 @@ body {
 .selection-card {
   display: flex;
   justify-content: space-evenly;
+  color: var(--desaturated-blue);
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.selection-card p:hover {
+  color: white;
 }
 
 .attribution {
