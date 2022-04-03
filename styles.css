@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 350px;
 }
 
 .profile {
@@ -40,6 +41,7 @@ body {
   display: flex;
   padding: 20px;
   border-radius: 20px;
+  
 }
 
 .profile-pic {
@@ -75,6 +77,16 @@ body {
 
 .selection-card p:hover {
   color: white;
+}
+
+.activity-card {
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activity-card .grow {
+width: 80%;
 }
 
 .attribution {
