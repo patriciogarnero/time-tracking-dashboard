@@ -94,6 +94,7 @@ main {
   color: white;
   box-sizing: border-box;
   padding: 10px 25px 20px 25px;
+  position: relative;
 }
 
 .activity-card p:first-child {
@@ -107,7 +108,7 @@ main {
 .activity-card p:first-child::after {
   content: url("./images/icon-ellipsis.svg");
   position: absolute;
-  right: 60px;
+  right: 28px;
 }
 
 .activity-card p:last-child {
