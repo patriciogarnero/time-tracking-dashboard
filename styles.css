@@ -45,7 +45,6 @@ main {
   display: flex;
   padding: 20px;
   border-radius: 20px;
-
 }
 
 .profile-pic {
@@ -84,6 +83,50 @@ main {
   color: white;
 }
 
+.card-container {
+  position: relative;
+}
+
+.card-background {
+  width: 305px;
+  height: 80px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: 220px 0;
+  background-size: 16%;
+  margin: 30px 0 100px 0;
+}
+
+.card-background.work {
+  background-color: var(--light-red-work);
+  background-image: url("./images/icon-work.svg");
+}
+
+.card-background.play {
+  background-color: var(--soft-blue);
+  background-image: url("./images/icon-play.svg");
+}
+
+.card-background.study {
+  background-color: var(--light-red-study);
+  background-image: url("./images/icon-study.svg");
+}
+
+.card-background.exercise {
+  background-color: var(--lime-green);
+  background-image: url("./images/icon-exercise.svg");
+}
+
+.card-background.social {
+  background-color: var(--violet);
+  background-image: url("./images/icon-social.svg");
+}
+
+.card-background.selfcare {
+  background-color: var(--soft-orange);
+  background-image: url("./images/icon-self-care.svg");
+}
+
 .activity-card {
   background-color: var(--dark-blue);
   display: grid;
@@ -95,13 +138,14 @@ main {
   box-sizing: border-box;
   padding: 10px 25px 20px 25px;
   position: relative;
+  top: 30px;
 }
 
 .activity-card p:first-child {
   grid-column-start: 1;
   grid-column-end: 3;
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 400;
   height: 20px;
 }
 
@@ -124,7 +168,6 @@ main {
   font-weight: 300;
   margin: 0;
 }
-
 
 .attribution {
   font-size: 11px;
